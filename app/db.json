@@ -1,18 +1,40 @@
 {
   "users": [
-    { "id": 1, "name": "Arthur", "email": "arthur.carneirontk@gmail.com", "createdAt": "06/03/21" }
-  ],
-  "salas": [
     {
       "id": 1,
-      "sala": "Sala 1",
-      "turma": "C",
-      "users": {
-        "id": 1,
-        "name": "Arthur",
-        "email": "arthur.carneirontk@gmail.com",
-        "createdAt": "06/03/21"
-      }
+      "name": "Arthur",
+      "email": "arthur.carneirontk@gmail.com",
+      "createdAt": "06/03/21"
+    },
+    {
+      "name": "asd",
+      "email": "asd",
+      "createdAt": "2021-07-07T18:43:22.507Z",
+      "id": 2
+    },
+    {
+      "name": "asd",
+      "email": "asd",
+      "createdAt": "2021-07-07T18:43:45.955Z",
+      "id": 3
+    },
+    {
+      "name": "asd",
+      "email": "asd",
+      "createdAt": "2021-07-07T18:44:01.401Z",
+      "id": 4
+    },
+    {
+      "name": "asdsa",
+      "email": "dsa",
+      "createdAt": "2021-07-07T18:44:28.305Z",
+      "id": 5
+    },
+    {
+      "name": "asdsad",
+      "email": "asdsad",
+      "createdAt": "2021-07-07T18:45:06.209Z",
+      "id": 6
     }
   ]
 }

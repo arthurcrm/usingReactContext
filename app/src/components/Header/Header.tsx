@@ -1,17 +1,23 @@
-import { Container, Title } from './styles';
 import addImg from '../../assets/add.svg';
+import { Container, Content, Title } from './styles';
 
-export const Header: React.FC = () => (
+interface HeaderProps {
+  onClickModalButton: () => void;
+}
+
+export const Header = ({ onClickModalButton }: HeaderProps) => (
   <>
     <Container>
-      <Title>
-        Tabela de
-        <strong>Usuarios</strong>
-      </Title>
-      <button type="button">
-        <img src={addImg} alt="Add New User" />
-        <span>Adicionar Novo Usuario</span>
-      </button>
+      <Content>
+        <Title>
+          Tabela de
+          <strong>Usuarios</strong>
+        </Title>
+        <button onClick={onClickModalButton} type="button">
+          <img src={addImg} alt="Add New User" />
+          <span>Adicionar Novo Usuario</span>
+        </button>
+      </Content>
     </Container>
   </>
 );
