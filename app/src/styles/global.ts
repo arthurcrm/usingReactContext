@@ -10,7 +10,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body{
-    background: #E7E6F7;
+    background: rgb(56, 59, 59);
   }
 
   table {
